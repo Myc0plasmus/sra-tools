@@ -26,7 +26,7 @@
 
 struct s_KNodeNamelist;
 #define KNAMELIST_IMPL struct s_KNodeNamelist
-#define ATTRIBUTE_UNUSED
+#define ATTRIBUTE_UNUSED 0
 
 #include <sysalloc.h>
 #include <kxml/xml.h>
