@@ -26,6 +26,7 @@
 
 struct s_KNodeNamelist;
 #define KNAMELIST_IMPL struct s_KNodeNamelist
+#define ATTRIBUTE_UNUSED
 
 #include <sysalloc.h>
 #include <kxml/xml.h>
@@ -48,6 +49,7 @@ struct s_KNodeNamelist;
 
 
 #define XML_DEBUG(msg) DBGMSG (DBG_XML, DBG_FLAG(DBG_XML_XML), msg)
+
 
 /********* XML manager ********/
 
